@@ -8,7 +8,7 @@ resource "aws_instance" "example_instance" {
   key_name      = "Keypair"  # Replace with your EC2 key pair name
 
   tags = {
-    Name = "Terra-ec2"
+    Name = "Terra machine"
   }
 }
 
